@@ -1,8 +1,12 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Navbar, Container, Nav} from 'react-bootstrap';
 import { useState, useEffect } from "react";
 import logo from '../assets/img/logo-portfolio.png'
+import facebook from '../assets/img/facebook.svg'
+// import { Facebook } from 'react-bootstrap-icons';
+import linkedin from '../assets/img/linkedin.svg';
+import instagram from '../assets/img/instagram.svg';
+
+
 
 export const NavBar = () => {
 
@@ -45,9 +49,9 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div clasName="social-icon">
-              <a href="#"><img src={} alt="" /></a>
-              <a href="#"><img src={} alt="" /></a>
-              <a href="#"><img src={} alt="" /></a>
+              <a href="#"><img src={facebook} alt="" /></a>
+              <a href="#"><img src={linkedin} alt="" /></a>
+              <a href="#"><img src={instagram} alt="" /></a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span> </button>
             </span>
