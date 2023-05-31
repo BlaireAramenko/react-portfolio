@@ -106,6 +106,10 @@ span.navbar-text {
     display: inline-block;
     margin-left: 14px;
 }
+
+.white-icons img {
+  filter: brightness(0) invert(1);
+}
 .social-icon a {
     width: 42px;
     height: 42px;
